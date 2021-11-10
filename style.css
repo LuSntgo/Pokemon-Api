@@ -3,11 +3,29 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: rgb(250,170,247);
+    background: linear-gradient(90deg, rgba(250,170,247,1) 0%, rgba(147,147,221,1) 40%, rgba(147,147,221,1) 55%, rgba(205,255,251,1) 86%, rgba(188,255,193,1) 100%);
+}
+h1, h3 {
+    font-size: 40px;
+    text-shadow: 2px 2px #e2e2e2;
+}
+h3{
+    font-size: 20px;
+}
 .container{
 
     font-size: 20px;
     text-align: center;
-    outline: 1px solid black;
+    
     margin: 50px auto 20px auto;
     width: 80%; 
+}
+input{
+text-align: center;
+background-color: rgba(34, 33, 33, 0.521);
+color: white;
+font-size: 30px;
 }
